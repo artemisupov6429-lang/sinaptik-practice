@@ -1,4 +1,4 @@
-# Кейс 1. Генерация продуктовых гипотез
+# Кейс 3. Генерация продуктовых гипотез
 
 **Индустриальный партнёр:** ООО «Синаптик»
 **Исполнитель:** Исупов Артём Евгеньевич, группа ИВТб-2303-06-00
@@ -73,7 +73,7 @@ db/
 
 ```bash
 pip install -r requirements.txt
-cd case1_product_hypotheses/src
+cd case3_product_hypotheses/src
 python run_all.py "C:/путь/к/папке/db"
 ```
 
@@ -82,7 +82,7 @@ python run_all.py "C:/путь/к/папке/db"
 ## Структура
 
 ```
-case1_product_hypotheses/
+case3_product_hypotheses/
 ├── README.md               # это описание
 ├── src/
 │   ├── common.py           # чтение выгрузки, общие функции
