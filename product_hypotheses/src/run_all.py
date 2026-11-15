@@ -9,7 +9,7 @@ import h1_trial_abuse, h2_free_limits, h3_purchase_path, h4_log_errors
 
 def main(db: Path) -> None:
     t0 = time.time()
-    parts = [f"# Результаты: кейс 3 «Генерация продуктовых гипотез»\n\nДанные: `{db.name}`. Сгенерировано скриптом run_all.py.\n"]
+    parts = [f"# Результаты: кейс «Генерация продуктовых гипотез»\n\nДанные: `{db.name}`. Сгенерировано скриптом run_all.py.\n"]
     print("Разбор клиентских логов…", flush=True)
     sessions, traffic = parse_logs(db)
     for name, fn in [("H1", lambda: h1_trial_abuse.run(db)),
